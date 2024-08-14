@@ -37,14 +37,14 @@ const LandingGraphic = () => {
 
         <Link
           to="/photos"
-          className="text-center btn xxw-72 font-bold bg-primary rounded-lg shadow-lg text-white glow-on-hover mt-10 text-2xl mx-auto"
+          className="text-center btn w-72 font-bold bg-primary rounded-lg shadow-lg text-white glow-on-hover mt-10 text-2xl mx-auto"
         >
           view photos
         </Link>
       </div>
 
       <img
-        className="mx-auto w-4/5 rounded-lg drop-shadow-xl lg:w-3/5 max-w-4xl lg:mt-20 lg:mb-40 flex"
+        className="mx-auto w-4/5 rounded-lg drop-shadow-xl md:w-2/5 max-w-4xl lg:mt-20 lg:mb-40 flex"
         src={Nate}
       />
     </div>
