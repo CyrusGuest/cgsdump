@@ -6,7 +6,7 @@ const DataGraphic = () => {
   return (
     <div className="mb-36 md:mb-16 mt-20 flex flex-col lg:flex-row-reverse gap-8 lg:gap-16">
       <img
-        className="mx-auto w-4/5 md:w-2/5 mr-6 lg:mr-12 max-w-2xl lg:mt-20 lg:mb-40 flex rounded-lg"
+        className="mx-auto w-4/5 md:w-2/5 md:mr-6 lg:mr-12 max-w-2xl lg:mt-20 lg:mb-40 flex rounded-lg"
         src={Hero}
       />
 
