@@ -21,99 +21,10 @@ import image15 from "../../images/albums/8-1-2024.jpg";
 import image16 from "../../images/albums/8-12-2024.jpg";
 import image17 from "../../images/albums/8-5-2024.jpg";
 import image18 from "../../images/albums/9-7-2023.jpg";
+import image19 from "../../images/albums/2-24-2024.jpg";
 import Album from "../components/Album";
 
 const defaultAlbumImages = [
-  {
-    image: image1,
-    date: "4/5/2024",
-    link: "https://adobe.ly/3YF63PD",
-    private: true,
-  },
-  {
-    image: image2,
-    date: "4/14/2024",
-    link: "https://adobe.ly/3YIwXG3",
-    private: false,
-  },
-  {
-    image: image3,
-    date: "4/20/2024",
-    link: "https://adobe.ly/4fJey24",
-    private: true,
-  },
-  {
-    image: image4,
-    date: "6/15/2024",
-    link: "https://adobe.ly/3M3m5Ly",
-    private: false,
-  },
-  {
-    image: image5,
-    date: "6/29/2024",
-    link: "https://adobe.ly/3M5cOmf",
-    private: false,
-  },
-  {
-    image: image6,
-    date: "6/30/2024",
-    link: "https://adobe.ly/3M5DWBC",
-    private: false,
-  },
-  {
-    image: image7,
-    date: "7/8/2024",
-    link: "https://adobe.ly/4cUD51N",
-    private: false,
-  },
-  {
-    image: image8,
-    date: "7/9/2024",
-    link: "https://adobe.ly/3SIaghp",
-    private: true,
-  },
-  {
-    image: image9,
-    date: "7/11/2024",
-    link: "https://adobe.ly/4dHzB34",
-    private: false,
-  },
-  {
-    image: image10,
-    date: "7/19/2023",
-    link: "https://adobe.ly/3yFJnEe",
-    private: false,
-  },
-  {
-    image: image11,
-    date: "7/20/2023",
-    link: "https://adobe.ly/3SJAArO",
-    private: false,
-  },
-  {
-    image: image12,
-    date: "7/21/2023",
-    link: "https://adobe.ly/4dIzc0o",
-    private: false,
-  },
-  {
-    image: image13,
-    date: "7/23/2024",
-    link: "https://adobe.ly/4dHzJQ6",
-    private: false,
-  },
-  {
-    image: image14,
-    date: "7/25/2024",
-    link: "https://adobe.ly/3Sr39Kq",
-    private: false,
-  },
-  {
-    image: image15,
-    date: "8/1/2024",
-    link: "https://adobe.ly/3yAxHTe",
-    private: true,
-  },
   {
     image: image16,
     date: "8/11/2024",
@@ -127,9 +38,105 @@ const defaultAlbumImages = [
     private: true,
   },
   {
+    image: image15,
+    date: "8/1/2024",
+    link: "https://adobe.ly/3yAxHTe",
+    private: true,
+  },
+  {
+    image: image14,
+    date: "7/25/2024",
+    link: "https://adobe.ly/3Sr39Kq",
+    private: false,
+  },
+  {
+    image: image13,
+    date: "7/23/2024",
+    link: "https://adobe.ly/4dHzJQ6",
+    private: false,
+  },
+  {
+    image: image9,
+    date: "7/11/2024",
+    link: "https://adobe.ly/4dHzB34",
+    private: false,
+  },
+  {
+    image: image8,
+    date: "7/9/2024",
+    link: "https://adobe.ly/3SIaghp",
+    private: true,
+  },
+  {
+    image: image7,
+    date: "7/8/2024",
+    link: "https://adobe.ly/4cUD51N",
+    private: false,
+  },
+  {
+    image: image6,
+    date: "6/30/2024",
+    link: "https://adobe.ly/3M5DWBC",
+    private: false,
+  },
+  {
+    image: image5,
+    date: "6/29/2024",
+    link: "https://adobe.ly/3M5cOmf",
+    private: false,
+  },
+  {
+    image: image4,
+    date: "6/15/2024",
+    link: "https://adobe.ly/3M3m5Ly",
+    private: false,
+  },
+  {
+    image: image3,
+    date: "4/20/2024",
+    link: "https://adobe.ly/4fJey24",
+    private: true,
+  },
+  {
+    image: image2,
+    date: "4/14/2024",
+    link: "https://adobe.ly/3YIwXG3",
+    private: false,
+  },
+  {
+    image: image1,
+    date: "4/5/2024",
+    link: "https://adobe.ly/3YF63PD",
+    private: true,
+  },
+  {
+    image: image19,
+    date: "2/24/2024",
+    link: "https://adobe.ly/3SJyo3d",
+    private: false,
+  },
+  {
     image: image18,
     date: "9/7/2023",
     link: "https://adobe.ly/4dkmAwV",
+    private: false,
+  },
+  {
+    image: image12,
+    date: "7/21/2023",
+    link: "https://adobe.ly/4dIzc0o",
+    private: false,
+  },
+  {
+    image: image11,
+    date: "7/20/2023",
+    link: "https://adobe.ly/3SJAArO",
+    private: false,
+  },
+  {
+    image: image10,
+    date: "7/19/2023",
+    link: "https://adobe.ly/3yFJnEe",
     private: false,
   },
 ];
