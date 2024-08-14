@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { AppContext } from "../context/AppContext";
 import { Link } from "react-router-dom";
 import arrow from "../../images/arrow.svg";
-import logo from "../../images/logo.svg";
 import menuDots from "../../images/menu-dots.svg";
 
 const MobileNav = () => {
@@ -17,8 +16,8 @@ const MobileNav = () => {
           alt=""
           className="cursor-pointer mr-8 mt-2"
         />
-        <p className="cursor-pointer text-primary font-bold text-lg mx-auto w-28 mt-4">
-          cgsdump.org
+        <p className="cursor-pointer text-primary font-bold text-4xl mx-auto w-28 mt-4">
+          cbtd
         </p>
         <img
           onClick={() => setMobileNavOpen(false)}

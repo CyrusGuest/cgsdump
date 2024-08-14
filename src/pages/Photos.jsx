@@ -227,8 +227,7 @@ const Photos = () => {
             </button>
           ) : (
             <p className="text-center text-[#999999] mt-2">
-              you're now viewing all albums, including{" "}
-              <span className="text-gradient font-bold">private</span> albums.
+              you're now viewing all albums, including private albums.
             </p>
           )}
         </div>
