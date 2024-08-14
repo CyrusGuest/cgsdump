@@ -11,21 +11,21 @@ const Navbar = () => {
     <div className="flex">
       <Link to="/">
         <div className="flex mt-6 ml-4 w-44 md:w-64">
-          <img src={logo} alt="" className="cursor-pointer" />
+          <h1 className="font-bold text-4xl text-primary">cgsdump.org</h1>
         </div>
       </Link>
 
-      <div className="my-auto ml-auto hidden md:inline">
+      <div className="my-auto mt-4 ml-auto hidden md:inline">
         <ul className="flex gap-6 mr-6 text-2xl font-bold ">
           <li className="my-auto hover:-rotate-6 hover:text-3xl duration-200">
-            <Link to="/packages">Packages</Link>
+            <Link to="/contactme">contact me</Link>
           </li>
           {/* <li className="my-auto hover:rotate-6 hover:text-3xl duration-200">
             <Link to="/casestudies">Case studies</Link>
           </li> */}
-          <Link to="/getstarted">
+          <Link to="/photos">
             <li className="my-auto cursor-pointer btn bg-primary text-white glow-on-hover shadow-lg py-2 mt-1 px-6 font-semibold rounded-md transition duration-300">
-              Get started
+              view photos
             </li>
           </Link>
         </ul>

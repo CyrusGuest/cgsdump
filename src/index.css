@@ -9,7 +9,7 @@
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(180deg, #5BD77D, #32CD5D);
+  background: -webkit-linear-gradient(180deg, #e2d4bc, #b4a895);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -26,3 +26,4 @@
 .custom-square-radio {
   border-radius: 0;
 }
+

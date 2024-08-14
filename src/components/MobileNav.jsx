@@ -17,7 +17,9 @@ const MobileNav = () => {
           alt=""
           className="cursor-pointer mr-8 mt-2"
         />
-        <img src={logo} alt="" className="cursor-pointer mx-auto w-28 mt-4" />
+        <p className="cursor-pointer text-primary font-bold text-lg mx-auto w-28 mt-4">
+          cgsdump.org
+        </p>
         <img
           onClick={() => setMobileNavOpen(false)}
           src={menuDots}
@@ -28,12 +30,12 @@ const MobileNav = () => {
 
       <div className="flex flex-col ml-6 mt-10 gap-10">
         <ul className="text-2xl ">
-          <h1 className="font-bold text-5xl text-gradient">shop</h1>
+          <h1 className="font-bold text-5xl text-gradient">menu</h1>
           <Link onClick={() => setMobileNavOpen(false)} to="/">
             <h4 className="mt-1">home</h4>
           </Link>
-          <Link onClick={() => setMobileNavOpen(false)} to="/packages">
-            <h4 className="mt-1">packages</h4>
+          <Link onClick={() => setMobileNavOpen(false)} to="/photos">
+            <h4 className="mt-1">photos</h4>
           </Link>
         </ul>
         {/* 
@@ -53,7 +55,7 @@ const MobileNav = () => {
         <Link
           onClick={() => setMobileNavOpen(false)}
           className="text-white glow-on-hover-fixed mx-auto fixed bottom-10 w-8/12 text-3xl text-center cursor-pointer drop-shadow-lg py-3 bg-primary px-6 font-semibold rounded-md transition duration-300"
-          to="/getstarted"
+          to="/contactme"
         >
           contact us
         </Link>
