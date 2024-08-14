@@ -44,7 +44,7 @@ const LandingGraphic = () => {
       </div>
 
       <img
-        className="mx-auto w-4/5 rounded-lg drop-shadow-xl md:w-2/5 max-w-4xl lg:mt-20 lg:mb-40 flex"
+        className="mx-auto w-4/5 rounded-lg drop-shadow-xl ml-6 lg:ml-12 md:w-2/5 max-w-4xl lg:mt-20 lg:mb-40 flex"
         src={Nate}
       />
     </div>

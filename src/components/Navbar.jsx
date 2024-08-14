@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="flex">
       <Link to="/">
         <div className="flex mt-6 ml-4 w-44 md:w-64">
-          <h1 className="font-bold text-4xl text-primary">cgsdump.org</h1>
+          <h1 className="font-bold text-5xl text-primary">cbtd</h1>
         </div>
       </Link>
 
