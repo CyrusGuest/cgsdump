@@ -22,9 +22,16 @@ import image16 from "../../images/albums/8-12-2024.jpg";
 import image17 from "../../images/albums/8-5-2024.jpg";
 import image18 from "../../images/albums/9-7-2023.jpg";
 import image19 from "../../images/albums/2-24-2024.jpg";
+import image20 from "../../images/albums/8-20-2024.jpg";
 import Album from "../components/Album";
 
 const defaultAlbumImages = [
+  {
+    image: image20,
+    date: "8/20/2024",
+    link: "https://adobe.ly/46VErro",
+    private: true,
+  },
   {
     image: image16,
     date: "8/11/2024",
