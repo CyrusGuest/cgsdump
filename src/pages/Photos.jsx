@@ -30,7 +30,7 @@ const defaultAlbumImages = [
   {
     image: image21,
     date: "9/2/2024",
-    link: "https://adobe.ly/46VErro",
+    link: "https://adobe.ly/47knLdy",
     private: false,
   },
   {
