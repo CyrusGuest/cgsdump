@@ -37,7 +37,7 @@ const defaultAlbumImages = [
     image: image20,
     date: "8/20/2024",
     link: "https://adobe.ly/46VErro",
-    private: true,
+    private: false,
   },
   {
     image: image16,
@@ -49,13 +49,13 @@ const defaultAlbumImages = [
     image: image17,
     date: "8/5/2024",
     link: "https://adobe.ly/3YuSj9R",
-    private: true,
+    private: false,
   },
   {
     image: image15,
     date: "8/1/2024",
     link: "https://adobe.ly/3yAxHTe",
-    private: true,
+    private: false,
   },
   {
     image: image14,
@@ -109,7 +109,7 @@ const defaultAlbumImages = [
     image: image3,
     date: "4/20/2024",
     link: "https://adobe.ly/4fJey24",
-    private: true,
+    private: false,
   },
   {
     image: image2,
@@ -121,7 +121,7 @@ const defaultAlbumImages = [
     image: image1,
     date: "4/5/2024",
     link: "https://adobe.ly/3YF63PD",
-    private: true,
+    private: false,
   },
   {
     image: image19,
